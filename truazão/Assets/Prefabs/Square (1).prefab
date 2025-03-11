@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1539968375955082930}
   - component: {fileID: 3857278043235361760}
   - component: {fileID: 7156031361221771422}
+  - component: {fileID: 4310726486061160441}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: chao
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 4540480834306814599}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.47, y: -3.39, z: 0}
-  m_LocalScale: {x: 3.8180137, y: 1, z: 1}
+  m_LocalPosition: {x: 25.664, y: -5.8529, z: 0}
+  m_LocalScale: {x: 89.60578, y: 4.0009146, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: d19c81bd111a35f4083bc9c07fd1acdb, type: 3}
-  m_Color: {r: 0, g: 0.990566, b: 0.19494952, a: 1}
+  m_Color: {r: 0.99215686, g: 0, b: 0.076013006, a: 0.003921569}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -158,3 +159,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4310726486061160441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540480834306814599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1d1f1b44bb05b4ea3bf48808c35565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

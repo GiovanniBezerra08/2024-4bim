@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
     {
         andando = false;
         
-      if(Input.GetKey(KeyCode.A))
+      if(Input.GetKey(KeyCode.LeftArrow))
       {
         gameObject.transform.position += new Vector3(-velocidade*Time.deltaTime,0,0);
         //rigidbody2D.AddForce(new Vector2(-velocidade,0));
@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
       }
         
 
-      if(Input.GetKey(KeyCode.D))
+      if(Input.GetKey(KeyCode.RightArrow))
       {
         gameObject.transform.position += new Vector3(velocidade*Time.deltaTime,0,0);
         //rigidbody2D.AddForce(new Vector2(velocidade,0));
@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
             Debug.Log("Jump");
         }
 
-        _animator.SetBool("andar",andando);
+        _animator.SetBool("Andando",andando);
         
      
     }
